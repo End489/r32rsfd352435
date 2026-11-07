@@ -869,7 +869,7 @@ $("settings").addEventListener("click",e=>{
   if(e.target.id==="wipe2")$("wipe").click();
 });
 /* ================= Sessions (stored on this device only) ================= */
-const APP_VERSION=(window.native&&window.native.version)||"2.1.2";
+const APP_VERSION=(window.native&&window.native.version)||"1.0.2";
 const BUILD_DATE="2026-11-07"; // change this every time you upload a new index.html
 function fmtBuild(){return new Date(BUILD_DATE+"T00:00:00").toLocaleDateString([],{year:"numeric",month:"short",day:"numeric"});}
 function deviceInfo(){
